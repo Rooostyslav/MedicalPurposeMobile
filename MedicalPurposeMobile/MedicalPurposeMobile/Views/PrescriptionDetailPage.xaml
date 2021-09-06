@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MedicalPurposeMobile.Views.PrescriptionDetailPage"
+             Title="View Prescription">
+    
+    <ContentPage.Content>
+        <StackLayout Spacing="20" Padding="15">
+            <Image Source="{Binding QRCodeImageUrl}"
+               HeightRequest="300" />
+            
+            <Label Text="Doctor Name" FontSize="Medium" />
+            <Label Text="{Binding DoctorName}" FontSize="Small"/>
+
+            <Label Text="Patient Name" FontSize="Medium" />
+            <Label Text="{Binding PatientName}" FontSize="Small"/>
+
+            <Label Text="Description" FontSize="Medium" />
+            <Label Text="{Binding Description}" FontSize="Small"/>
+            
+            
+
+            <Label Text="Total Price" FontSize="Medium" />
+            <Label Text="{Binding TotalPrice}" FontSize="Small"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

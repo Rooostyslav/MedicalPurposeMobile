@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicalPurposeMobile.Android", "MedicalPurposeMobile\MedicalPurposeMobile.Android\MedicalPurposeMobile.Android.csproj", "{DA8065ED-FBC1-4302-9095-934A2A4DA223}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicalPurposeMobile", "MedicalPurposeMobile\MedicalPurposeMobile\MedicalPurposeMobile.csproj", "{6DE3C344-6808-4467-8E11-F71CFD326D00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA8065ED-FBC1-4302-9095-934A2A4DA223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA8065ED-FBC1-4302-9095-934A2A4DA223}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA8065ED-FBC1-4302-9095-934A2A4DA223}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DA8065ED-FBC1-4302-9095-934A2A4DA223}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA8065ED-FBC1-4302-9095-934A2A4DA223}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA8065ED-FBC1-4302-9095-934A2A4DA223}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{6DE3C344-6808-4467-8E11-F71CFD326D00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DE3C344-6808-4467-8E11-F71CFD326D00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DE3C344-6808-4467-8E11-F71CFD326D00}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6DE3C344-6808-4467-8E11-F71CFD326D00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DE3C344-6808-4467-8E11-F71CFD326D00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DE3C344-6808-4467-8E11-F71CFD326D00}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {985D2297-1AD1-484D-BAF0-7C459E1B62D8}
+	EndGlobalSection
+EndGlobal
